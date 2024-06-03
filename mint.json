@@ -1,34 +1,57 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "HutchOS Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#642FD4",
+    "light": "#EBE4FD",
+    "dark": "#642FD4",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#642FD4",
+      "to": "#EBE4FD"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@tryhutch.co.uk"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://web.tryhutch.co.uk"
+  },
+  "primaryTab": {
+    "name": "Home"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Integrations",
+      "url": "integrations"
+    },
+    {
+      "name": "Carriers",
+      "url": "carriers"
+    },
+    {
+      "name": "Aftercare",
+      "url": "aftercare"
+    },
+    {
+      "name": "Gifting",
+      "url": "gifting"
+    },
+    {
+      "name": "Workflows",
+      "url": "workflows"
+    },
+    {
+      "name": "Operators",
+      "url": "operators"
     }
   ],
   "anchors": [
@@ -52,34 +75,77 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "getting-started/introduction",
+        "getting-started/navigation",
+        "getting-started/orders",
+        "getting-started/inventory",
+        "getting-started/bundles",
+        "getting-started/inserts",
+        "getting-started/packaging",
+        "getting-started/issues",
+        "getting-started/returns",
+        "getting-started/send-inventory",
+        "getting-started/shipping-rules",
+        "getting-started/integrations",
+        "getting-started/next-steps"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Onboarding as a brand",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "onboarding/brand/introduction",
+        "onboarding/brand/checklist"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Aftercare",
       "pages": [
-        "api-reference/introduction"
+        "aftercare/introduction",
+        "aftercare/branding",
+        "aftercare/features",
+        "aftercare/connecting-your-store"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Workflows",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "workflows/introduction",
+        "workflows/triggers",
+        "workflows/checks",
+        "workflows/actions",
+        "workflows/debugging",
+        "workflows/examples"
+      ]
+    },
+    {
+      "group": "Gifting",
+      "pages": [
+        "gifting/introduction",
+        "gifting/branding",
+        "gifting/campaigns",
+        "gifting/examples"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/introduction",
+        "integrations/inventory-sync",
+        "integrations/debugging",
+        "integrations/ebay",
+        "integrations/shop-wired",
+        "integrations/shopify",
+        "integrations/squarespace",
+        "integrations/subbly",
+        "integrations/webflow",
+        "integrations/woo_commerce",
+        "integrations/cratejoy",
+        "integrations/magento",
+        "integrations/etsy",
+        "integrations/tik-tok",
+        "integrations/boots",
+        "integrations/zoho",
+        "integrations/sellbrite"
       ]
     }
   ],
