@@ -1,0 +1,16 @@
+---
+title: Introduction
+description: "An introduction to integrating your sales channels into HutchOS"
+---
+
+<img className="block h-80" src="/images/integrations.png" alt="Integrations" />
+
+HutchOS integrates into most D2C _(Direct to Consumer)_ sales channels and marketplaces. All sales channel integrations will support the following functionality:
+
+1. **Importing Products**: All active product listings will be imported into HutchOS when you connect your store. It's essential that all products have SKUs _(Stock Keeping Unit)_ set, as this is what HutchOS will use to determine which product to dispatch when an order is placed. If the sales channel you are integrating into supports product variants, each variant will be created as a seperate product in HutchOS.
+
+2. **Importing Orders**: When an order is created on the sales channel, it will be automatically imported into HutchOS within a few minutes. If the order doesn't appear within 10 minutes, it's likely there was an issue importing the order - this is almost always due to missing SKU information on one of the order items.
+
+3. **Syncing Order Tracking**: When an order is dispatched on HutchOS, the order will automatically be marked as fulfilled on the sales channel within a few seconds. If the sales channel supports tracking information (such as a tracking link or number), this will also be synced automatically.
+
+4. **Syncing Inventory**: Most sales channels also support inventory sync, allowing you to keep your stock levels consistent with what you have available in your warehouse. You can learn more about this in the next article!

@@ -58,7 +58,7 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.tryhutch.co.uk"
     },
     {
       "name": "Community",
@@ -131,21 +131,20 @@
       "pages": [
         "integrations/introduction",
         "integrations/inventory-sync",
-        "integrations/debugging",
+        "integrations/boots",
+        "integrations/cratejoy",
         "integrations/ebay",
+        "integrations/etsy",
+        "integrations/magento",
+        "integrations/sellbrite",
         "integrations/shop-wired",
         "integrations/shopify",
         "integrations/squarespace",
         "integrations/subbly",
+        "integrations/tik-tok",
         "integrations/webflow",
         "integrations/woo_commerce",
-        "integrations/cratejoy",
-        "integrations/magento",
-        "integrations/etsy",
-        "integrations/tik-tok",
-        "integrations/boots",
-        "integrations/zoho",
-        "integrations/sellbrite"
+        "integrations/zoho"
       ]
     }
   ],
