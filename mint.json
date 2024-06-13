@@ -134,7 +134,7 @@
       "pages": [
         "integrations/introduction",
         "integrations/inventory-sync",
-        "integrations/boots",
+        "integrations/blujay",
         "integrations/cratejoy",
         "integrations/ebay",
         "integrations/etsy",
