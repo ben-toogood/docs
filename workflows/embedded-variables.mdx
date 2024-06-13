@@ -1,0 +1,33 @@
+---
+title: Embedded Variables
+---
+
+This action supports embedded variables, so any of the below variables can be referenced using brackets, e.g. `{order.reference}`. When the workflow runs, these placeholders will be replaced with the actual value.
+
+| Key                                 | Description                                                                      |
+| ----------------------------------- | -------------------------------------------------------------------------------- |
+| order.id                            | The Hutch internal Order ID                                                      |
+| order.aftercare_link                | The orders Aftercare link                                                        |
+| order.reference                     | The reference used in Hutch dashboards, e.g 102454                               |
+| order.channel                       | The channel which the order was created via, e.g. Shopify                        |
+| order.channel_id                    | The ID of the order on the channel it originated from, e.g. the Shopify Order ID |
+| order.status                        | The fulfilment status of the order, e.g. Shipped                                 |
+| order.shipping_address.line_one     | The first line of the address                                                    |
+| order.shipping_address.line_two     | The second line of the address                                                   |
+| order.shipping_address.city         | The city line of the address, e.g. London                                        |
+| order.shipping_address.country      | The country line of the address, e.g. United Kingdom                             |
+| order.shipping_address.postcode     | The postcode for the address, e.g. HA7 1EE                                       |
+| order.shipping_address.name         | The name for the delivery, e.g. Serena Williams                                  |
+| order.shipping_address.first_name   | The first name for the delivery, e.g. Serena                                     |
+| order.shipping_address.company      | The company name for the delivery, e.g. Hutch Logistics Ltd                      |
+| order.shipping_address.notes        | Delivery instructions provided by the customer                                   |
+| order.shipping_address.state_code   | Where applicable, the state code e.g. NY for New York                            |
+| order.shipping_address.country_code | The two letter ISO country code, e.g. GB                                         |
+| order.shipping_address.phone_number | The phone number for use with the delivery                                       |
+| order.shipping_address.email        | The email address for use with the delivery                                      |
+| order.packaging_id                  | The packaging used for the order                                                 |
+| order.number_of_units               | The number of units in the order (excluding addons)                              |
+| order.shipping_method               | The shipping method selected to deliver the order                                |
+| order.blocked_reason                | The reason the order is on hold, e.g. InventoryUnavailable                       |
+| order.customs_value                 | The customs value for the order                                                  |
+| order.weight                        | The weight of the order in grams                                                 |

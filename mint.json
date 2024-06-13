@@ -54,7 +54,7 @@
       "url": "operators"
     }
   ],
-  "anchors": [
+  "x_anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
@@ -113,6 +113,9 @@
         "workflows/triggers",
         "workflows/checks",
         "workflows/actions",
+        "workflows/faqs",
+        "workflows/steps",
+        "workflows/embedded-variables",
         "workflows/debugging",
         "workflows/examples"
       ]
