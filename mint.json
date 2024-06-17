@@ -147,7 +147,7 @@
         "integrations/subbly",
         "integrations/tiktok",
         "integrations/webflow",
-        "integrations/woo_commerce",
+        "integrations/woocommerce",
         "integrations/zoho"
       ]
     }
