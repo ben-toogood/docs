@@ -101,9 +101,12 @@
       "group": "Aftercare",
       "pages": [
         "aftercare/introduction",
+        "aftercare/returns",
         "aftercare/branding",
+        "aftercare/aftercare",
         "aftercare/features",
-        "aftercare/connecting-your-store"
+        "aftercare/connect-your-store",
+        "aftercare/faqs"
       ]
     },
     {

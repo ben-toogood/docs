@@ -1,0 +1,17 @@
+---
+title: Connecting your Store
+---
+
+### Shopify
+
+1. In Shopify click Settings > Go to Notifications > Click Customer notifications
+2. Click Order Confirmation > then go to Edit Code
+3. Click inside the email body text box and click CTRL + F for Windows or Command + F for Mac
+4. In the ‘find’ box type in view your order and in the replace box type in Track Your Order and click Replace All. Scroll to the top of the page and click preview to ensure the View Your Order button has changed to Track Your Order.
+5. Close Preview box and click back into the email body
+6. Click CTRL + F or Command + F again. In the find box, copy and paste `{{ order_status_url }}`
+7. In the replace box, copy and paste `https://tracking.tryhutch.co.uk/demo?order={{ order_number }}&postcode={{ shipping_address.zip }}`. The red highlighted area needs to be replaced with your brand/account name. For example if your brand name was Hutch Fulfulfilment then demo would be replaced by hutch-fulfilment or if the brand name was just Hutch, demo would be replaced with hutch. `https://tracking.tryhutch.co.uk/hutch?order={{ order_number }}&postcode={{ shipping_address.zip }}`. Hit “replace all”.
+8. Scroll to the top of the page and click Preview. Click send test email so you can see if everything works
+9. In the test email when you click the Track Your Order Button it should take you to your branded Aftercare Page. If it does, then the coding you did earlier was successful.
+10. Click Save and close Settings Box by clicking the small X in the upper right corner.
+11. Repeat Steps 1 to 10 to link Aftercare to the Shipping Confirmation emails.
