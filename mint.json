@@ -76,25 +76,14 @@
       "group": "Get Started",
       "pages": [
         "getting-started/introduction",
-        "getting-started/navigation",
         "getting-started/orders",
         "getting-started/inventory",
         "getting-started/bundles",
         "getting-started/inserts",
-        "getting-started/packaging",
         "getting-started/issues",
         "getting-started/returns",
         "getting-started/send-inventory",
-        "getting-started/shipping-rules",
-        "getting-started/integrations",
-        "getting-started/next-steps"
-      ]
-    },
-    {
-      "group": "Onboarding as a brand",
-      "pages": [
-        "onboarding/brand/introduction",
-        "onboarding/brand/checklist"
+        "getting-started/shipping-rules"
       ]
     },
     {
@@ -127,9 +116,7 @@
       "group": "Gifting",
       "pages": [
         "gifting/introduction",
-        "gifting/branding",
-        "gifting/campaigns",
-        "gifting/examples"
+        "gifting/create-a-campaign"
       ]
     },
     {
