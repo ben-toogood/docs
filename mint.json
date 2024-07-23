@@ -123,7 +123,8 @@
       "group": "Carriers",
       "pages": [
         "carriers/apc",
-        "carriers/csm"
+        "carriers/csm",
+        "carriers/dhl"
       ]
     },
     {
