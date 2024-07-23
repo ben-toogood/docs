@@ -120,6 +120,13 @@
       ]
     },
     {
+      "group": "Carriers",
+      "pages": [
+        "carriers/apc",
+        "carriers/csm"
+      ]
+    },
+    {
       "group": "Integrations",
       "pages": [
         "integrations/introduction",
