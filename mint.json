@@ -124,7 +124,9 @@
       "pages": [
         "carriers/apc",
         "carriers/csm",
-        "carriers/dhl"
+        "carriers/dhl",
+        "carriers/dpd-ireland",
+        "carriers/dpd-local"
       ]
     },
     {
