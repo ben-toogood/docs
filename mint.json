@@ -126,7 +126,9 @@
         "carriers/csm",
         "carriers/dhl",
         "carriers/dpd-ireland",
-        "carriers/dpd-local"
+        "carriers/dpd-local",
+        "carriers/dpd-red",
+        "carriers/evri"
       ]
     },
     {
