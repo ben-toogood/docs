@@ -42,3 +42,8 @@ HutchOS Supports the following Royal Mail services:
 ### Connecting Royal Mail
 
 In order to connect your Royal Mail account to HutchOS, we require the following information:
+
+- Account Number
+- Legal Name
+- Registered Email Address (Used for OBA account)
+- Posting Location Code (Account manager can provide this)
