@@ -128,7 +128,13 @@
         "carriers/dpd-ireland",
         "carriers/dpd-local",
         "carriers/dpd-red",
-        "carriers/evri"
+        "carriers/evri",
+        "carriers/fedex",
+        "carriers/maersk",
+        "carriers/packfleet",
+        "carriers/royal-mail",
+        "carriers/samos",
+        "carriers/transglobal"
       ]
     },
     {
