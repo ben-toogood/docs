@@ -130,6 +130,7 @@
         "carriers/dpd-red",
         "carriers/evri",
         "carriers/fedex",
+        "carriers/fedex-connect",
         "carriers/maersk",
         "carriers/packfleet",
         "carriers/royal-mail",
