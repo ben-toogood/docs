@@ -159,6 +159,12 @@
         "integrations/woocommerce",
         "integrations/zoho"
       ]
+    },
+    {
+        "group": "Operators",
+        "pages": [
+            
+        ]
     }
   ],
   "footerSocials": {
