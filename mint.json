@@ -163,7 +163,8 @@
     {
         "group": "Operators",
         "pages": [
-          "operators/packing"
+          "operators/packing",
+          "operators/returns-receiving.md"
         ]
     }
   ],
