@@ -165,7 +165,8 @@
         "pages": [
           "operators/packing",
           "operators/returns-introduction",
-          "operators/returns-receiving"
+          "operators/returns-receiving",
+          "operators/returns-processing"
         ]
     }
   ],
