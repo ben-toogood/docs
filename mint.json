@@ -164,7 +164,8 @@
         "group": "Operators",
         "pages": [
           "operators/packing",
-          "operators/returns-receiving.md"
+          "operators/introduction",
+          "operators/returns-receiving"
         ]
     }
   ],
