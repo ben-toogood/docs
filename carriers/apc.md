@@ -1,10 +1,10 @@
 ---
-title: 'APC'
+title: "APC"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following APC services:
+Pimento Supports the following APC services:
 
 - APC 2-5 Day Parcel (TDAY)
 - APC Liquid Product By 10am (LP10)
@@ -23,7 +23,7 @@ HutchOS Supports the following APC services:
 
 ### Connecting APC
 
-In order to connect your APC account to HutchOS, we require the following information:
+In order to connect your APC account to Pimento, we require the following information:
 
 - Username
 - Password

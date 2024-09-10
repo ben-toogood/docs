@@ -1,17 +1,17 @@
 ---
-title: 'Evri'
+title: "Evri"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following Evri services:
+Pimento Supports the following Evri services:
 
 - Evri Next Day
 - Evri Standard
 
 ### Connecting Evri
 
-In order to connect your Evri account to HutchOS, we require the following information:
+In order to connect your Evri account to Pimento, we require the following information:
 
 - Username
 - Password

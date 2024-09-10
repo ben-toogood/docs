@@ -1,10 +1,10 @@
 ---
-title: 'DPD Red'
+title: "DPD Red"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following DPD Red services:
+Pimento Supports the following DPD Red services:
 
 - DPD 12pm (1^13)
 - DPD ExpressPak 12pm (1^33)
@@ -17,7 +17,7 @@ HutchOS Supports the following DPD Red services:
 
 ### Connecting DPD Red
 
-In order to connect your DPD Red account to HutchOS, we require the following information:
+In order to connect your DPD Red account to Pimento, we require the following information:
 
 - Username
 - Password

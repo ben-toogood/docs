@@ -1,10 +1,10 @@
 ---
-title: 'CSM'
+title: "CSM"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following CSM services:
+Pimento Supports the following CSM services:
 
 - CSM 10:30am (22)
 - CSM 12pm (23)
@@ -24,7 +24,7 @@ HutchOS Supports the following CSM services:
 
 ### Connecting CSM
 
-In order to connect your CSM account to HutchOS, we require the following information:
+In order to connect your CSM account to Pimento, we require the following information:
 
 - Username
 - Password

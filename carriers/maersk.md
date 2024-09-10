@@ -1,10 +1,10 @@
 ---
-title: 'Maersk'
+title: "Maersk"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following Maersk services:
+Pimento Supports the following Maersk services:
 
 - Maersk Express
 - Maersk Parcel Lite Large
@@ -13,6 +13,6 @@ HutchOS Supports the following Maersk services:
 
 ### Connecting Maersk
 
-In order to connect your Maersk account to HutchOS, we require the following information:
+In order to connect your Maersk account to Pimento, we require the following information:
 
 - API Key

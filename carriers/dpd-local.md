@@ -1,10 +1,10 @@
 ---
-title: 'DPD Local'
+title: "DPD Local"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following DPD Local services:
+Pimento Supports the following DPD Local services:
 
 - DPD Expak 1 By 12pm (2^03)
 - DPD Expak 1 Next Day (2^68)
@@ -24,7 +24,7 @@ HutchOS Supports the following DPD Local services:
 
 ### Connecting DPD Local
 
-In order to connect your DPD Local account to HutchOS, we require the following information:
+In order to connect your DPD Local account to Pimento, we require the following information:
 
 - Username
 - Password

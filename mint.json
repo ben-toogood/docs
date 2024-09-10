@@ -1,24 +1,24 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "HutchOS Docs",
+  "name": "Pimento Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#642FD4",
-    "light": "#EBE4FD",
-    "dark": "#642FD4",
+    "primary": "#1D3104",
+    "light": "#AFE479",
+    "dark": "#1D3104",
     "anchors": {
-      "from": "#642FD4",
-      "to": "#EBE4FD"
+      "from": "#1D3104",
+      "to": "#AFE479"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@tryhutch.co.uk"
+      "url": "mailto:hello@getpimento.com"
     }
   ],
   "topbarCtaButton": {
@@ -58,7 +58,7 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://docs.tryhutch.co.uk"
+      "url": "https://docs.getpimento.com"
     },
     {
       "name": "Community",
@@ -171,9 +171,8 @@
     }
   ],
   "footerSocials": {
-    "instagram": "https://www.instagram.com/tryhutch/",
-    "x": "https://x.com/tryhutch",
-    "linkedin": "https://www.linkedin.com/company/56462526",
-    "tiktok": "https://www.tiktok.com/@tryhutch"
+    "instagram": "https://www.instagram.com/pimentohq/",
+    "x": "https://x.com/pimentohq",
+    "linkedin": "https://www.linkedin.com/company/getpimento"
   }
 }

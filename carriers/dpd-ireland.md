@@ -1,10 +1,10 @@
 ---
-title: 'DPD Ireland'
+title: "DPD Ireland"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following DPD Ireland services:
+Pimento Supports the following DPD Ireland services:
 
 - DPD 2 Day (6)
 - DPD Classic Road (1)
@@ -13,7 +13,7 @@ HutchOS Supports the following DPD Ireland services:
 
 ### Connecting DPD Ireland
 
-In order to connect your DPD Ireland account to HutchOS, we require the following information:
+In order to connect your DPD Ireland account to Pimento, we require the following information:
 
 - Username
 - Password

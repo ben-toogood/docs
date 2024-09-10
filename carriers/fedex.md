@@ -1,17 +1,17 @@
 ---
-title: 'FedEx'
+title: "FedEx"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following FedEx services:
+Pimento Supports the following FedEx services:
 
 - FedEx International Priority
 - FedEx Next Day
 
 ### Connecting FedEx
 
-In order to connect your FedEx account to HutchOS, we require the following information:
+In order to connect your FedEx account to Pimento, we require the following information:
 
 - Account Number
 - API Key

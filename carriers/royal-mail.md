@@ -1,10 +1,10 @@
 ---
-title: 'Royal Mail'
+title: "Royal Mail"
 ---
 
 ### Supported Services
 
-HutchOS Supports the following Royal Mail services:
+Pimento Supports the following Royal Mail services:
 
 - Royal Mail 24 (CRL1)
 - Royal Mail 48 (CRL2)
@@ -16,11 +16,11 @@ HutchOS Supports the following Royal Mail services:
 - Royal Mail International Business Signed Large Letter (Country Priced) (MT0)
 - Royal Mail International Business Signed Large Letter (Zonal Priced) (MTM)
 - Royal Mail International Business Tracked & Signed (Country Priced) (MTE)
-- Royal Mail  International Business Tracked & Signed (Zonal Priced) (MTA)
+- Royal Mail International Business Tracked & Signed (Zonal Priced) (MTA)
 - Royal Mail International Business Tracked & Signed Large Letter (Country Priced) (MTG)
 - Royal Mail International Business Tracked & Signed Large Letter (Zonal Priced) (MTC)
 - Royal Mail International Business Tracked (Country Priced) (MP7)
-- Royal Mail  International Business Tracked (Zonal Priced) (MP1)
+- Royal Mail International Business Tracked (Zonal Priced) (MP1)
 - Royal Mail International Business Tracked Large Letter (Country Priced) (MTK)
 - Royal Mail International Business Tracked Large Letter (Zonal Priced) (MTI)
 - Royal Mail International Business Untracked (Country Priced) (DE4)
@@ -41,7 +41,7 @@ HutchOS Supports the following Royal Mail services:
 
 ### Connecting Royal Mail
 
-In order to connect your Royal Mail account to HutchOS, we require the following information:
+In order to connect your Royal Mail account to Pimento, we require the following information:
 
 - Account Number
 - Legal Name
