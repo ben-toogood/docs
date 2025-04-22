@@ -50,8 +50,8 @@
       "url": "workflows"
     },
     {
-      "name": "Operators",
-      "url": "operators"
+      "name": "Operations",
+      "url": "operations"
     }
   ],
   "x_anchors": [
@@ -150,7 +150,7 @@
         "integrations/ebay",
         "integrations/etsy",
         "integrations/magento",
-        "intergration/notonthehighstreet",
+        "integrations/notonthehighstreet",
         "integrations/sellbrite",
         "integrations/shopwired",
         "integrations/shopify",
@@ -163,13 +163,18 @@
       ]
     },
     {
-        "group": "Operators",
-        "pages": [
-          "operators/packing",
-          "operators/returns-introduction",
-          "operators/returns-receiving",
-          "operators/returns-processing"
-        ]
+      "group": "Packing",
+      "pages": [
+        "operations/packing/introduction"
+      ]
+    },
+    {
+      "group": "Returns",
+      "pages": [
+          "operations/returns/returns-introduction",
+          "operations/returns/returns-receiving",
+          "operations/returns/returns-processing"
+      ]
     }
   ],
   "footerSocials": {
