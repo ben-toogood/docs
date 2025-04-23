@@ -163,6 +163,14 @@
       ]
     },
     {
+      "group": "Set Up",
+      "pages": [
+        "operations/warehouse/warehouse-users",
+        "operations/warehouse/warehouse-locations",
+        "operations/warehouse/warehouse-packaging"
+      ]
+    },
+    {
       "group": "Packing",
       "pages": [
         "operations/packing/introduction"
