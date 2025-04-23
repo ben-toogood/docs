@@ -1,1 +1,34 @@
+---
+title: ""Warehouse Locations""
+---
 
+**Note: The system can handle up to 10,000 rows per upload. Uploads exceeding this limit may fail**
+
+**Creating Locations in Your Warehouse**
+
+1. Go to the “Onboarding” tab, then select “Location Uploader”
+
+2. Download the CSV template using the provided hyperlink
+
+3. Complete the sheet using the following guidelines:
+
+- 
+
+
+**Location Attribute Definitions**
+
+Asile: The row you walk past, can be a row of shelfs, pallet racking or pallets. The location can be double-barrelled (e.g. AA or 01). This is recomended for larger warehouses.
+
+Bay: A position along the aisle, a shelf whithin the asile or a section of the pallet racking
+
+Level: The level within the bay, 
+
+Bin:
+
+Discription:
+
+Barcode:
+
+Size:
+
+Type:
