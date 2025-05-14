@@ -167,7 +167,8 @@
       "pages": [
         "operations/warehouse/warehouse-users",
         "operations/warehouse/warehouse-locations",
-        "operations/warehouse/warehouse-packaging"
+        "operations/warehouse/warehouse-packaging",
+        "operations/warehouse/client-packaging"
       ]
     },
     {

@@ -1,5 +1,5 @@
 ---
-title: ""Warehouse Locations""
+title: Warehouse Locations
 ---
 
 **Note: The system can handle up to 10,000 rows per upload. Uploads exceeding this limit may fail**
@@ -25,7 +25,7 @@ Level: The level within the bay,
 
 Bin:
 
-Discription:
+Discription: 
 
 Barcode:
 
