@@ -1,0 +1,66 @@
+---
+title: Swap Commerce
+---
+
+To connect your Swap Commerce account to Pimento, follow the below steps:
+
+## 1. Open Swap Commerce Integration
+
+Navigate to the [Swap Commerce integration settings](https://app.getpimento.com/clients/settings/integrations/swap-commerce/new) within the Pimento dashboard.
+
+<img height="200" src="/images/swapcommerce-connect.png" alt="Connect Swap Commerce" />
+
+## 2. Copy Webhook URL
+
+Copy the webhook URL **exactly** as shown on the settings page. Copying this incorrectly will result in no orders being downloaded.
+
+<img height="200" src="/images/swapcommerce-webhook.png" alt="Swap Commerce Webhook URL" />
+
+## 3. Configure Webhook in Swap
+
+1. Navigate to **Integrations** in your Swap dashboard
+
+2. Click **New webhook**
+
+3. Give it a name (e.g., "Hutch Returns")
+
+4. Paste the webhook URL from above
+
+5. Select the **Return** event
+
+<Info>
+You will need to create two separate webhooks: one for **create** events and one for **update** events.
+</Info>
+
+6. After creating the webhook, copy and save the **Webhook Secret** shown
+
+<Warning>
+The Webhook Secret won't be shown again, so make sure to save it securely.
+</Warning>
+
+## 4. Generate Returns QC API Key
+
+1. Go to **Returns** → **Quality Control Settings** in Swap
+
+2. Enable **Quality Control**
+
+3. Click **Generate API Key**
+
+4. Copy the token from the popup
+
+<Warning>
+The API key won't be shown again, so make sure to save it securely.
+</Warning>
+
+## 5. Complete Integration
+
+1. Enter the **Webhook Secret** from Step 3
+
+2. Enter the **QC API Key** from Step 4
+
+3. Click **Connect Integration**
+
+<img height="200" src="/images/swapcommerce-connected.png" alt="Swap Commerce Connected" />
+
+Your Swap Commerce account is now connected to Pimento, and returns will automatically sync between the platforms.
+
