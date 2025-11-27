@@ -146,6 +146,7 @@
         "integrations/inventory-sync",
         "integrations/amazon",
         "integrations/blujay",
+        "integrations/costco",
         "integrations/cratejoy",
         "integrations/ebay",
         "integrations/etsy",
