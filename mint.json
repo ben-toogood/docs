@@ -108,8 +108,7 @@
         "workflows/faqs",
         "workflows/steps",
         "workflows/embedded-variables",
-        "workflows/debugging",
-        "workflows/examples"
+        "workflows/debugging"
       ]
     },
     {
@@ -169,7 +168,7 @@
       "pages": [
         "operations/warehouse/warehouse-users",
         "operations/warehouse/warehouse-packaging",
-        "operations/warehouse/client-packaging"
+        "operations/warehouse/warehouse-client-packaging"
       ]
     },
     {
