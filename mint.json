@@ -134,6 +134,7 @@
         "carriers/packfleet",
         "carriers/royal-mail",
         "carriers/samos",
+        "carriers/swap-commerce",
         "carriers/transglobal",
         "carriers/whistl"
       ]
@@ -152,8 +153,8 @@
         "integrations/magento",
         "integrations/notonthehighstreet",
         "integrations/sellbrite",
-        "integrations/shopwired",
         "integrations/shopify",
+        "integrations/shopwired",
         "integrations/squarespace",
         "integrations/subbly",
         "integrations/swap-commerce",
