@@ -2,68 +2,32 @@
 title: Shopify
 ---
 
-***Shopify have updated their APIs and have removed PII acsess to accounts on the basic Shopify plan, please ensure the Shopify account you are trying to connect is on the Grow plan or higher***
-
 To connect your Shopify account to Pimento, follow the below steps:
 
-1. Navigate to the **Settings** section of the Shopify dashboard. Select **Apps and sales channels** from the sidebar.
+1. Navigate to **Integrations** this can be found by going to Settings > Integrations on the Pimento dashboard.
 
-2. Press the **Develop apps** button in the top right corner
+<img height="200" src="/images/settings-integrations.png" alt="Integrations page" />
 
-<img height="200" alt="Step 1" src="/images/shopify-1.png" />
+2. Next go to **Connect New Integration**
 
-1. Press the **Create an app** button in the top right corner
+<img height="200" src="/images/connect-new-integration.png" alt="Connect new integration" />
 
-<img height="200" alt="Step 2" src="/images/shopify-2.png" />
+3. From there you will be shown a pop-up asking to install from the Shopify App store, simply hit **Connect** and you will be redirected. If you see a slightly different screen please refer to 3.1 below
 
-1. Enter the App name as `Pimento OS` and then select yourself as the App developer.
+<img height="200" src="/images/shopify-brands.png" alt="Shopify brand click connect" />
 
-<img height="200" alt="Step 3" src="/images/shopify-3.png" />
+3.1 If you see a slightly different screen you will be asked to enter your slug, this can be found when you go to `admin.shopify.com` within the domain bar, e.g from `https://admin.shopify.com/store/ethan-testing-store` you would need to enter `ethan-testing-store`
 
-1. Press **Configure Admin API Scopes**
+<img height="200" src="/images/shopify-3pl.png" alt="3PL enter store slug" />
 
-<img height="200" alt="Step 4" src="/images/shopify-4.png" />
 
-1. Enable the following scopes
+4. You will now be shown the Shopify App Store, click Install, you will need to ensure you are logged into the correct Shopify store you wish to link.
 
-* **Products**: Read Access
+<img height="200" src="/images/shopify-app-store.png" alt="Shopify App Store" />
 
-* **Assigned fulfilment orders**: Read and Write access
+4. When re-directed to Shopify you will be prompted to accept the Pimento App Shopify permissions, these are required to download and send fulfilment updates
 
-* **Fulfilment services**: Read and Write access
+<img height="200" src="/images/shopify-permissions.png" alt="Shopify Settings Page" />
 
-* **Inventory**: Read and Write access
-
-* **Locations**: Read access
-
-* **Merchant-managed fulfilment orders**: Read and Write access
-
-* **Orders**: Read and Write access
-
-* **Third-party fulfilment orders**: Read and Write access
-
-* **View or manage fulfillment services**: Read and Write access
-
-* **Returns**: Read and Write access
-
-<img height="200" alt="Step 5" src="/images/shopify-5.png" />
-
-1. Press **Install app**
-
-<img height="200" alt="Step 6" src="/images/shopify-6.png" />
-
-1. Confirm the popup
-
-<img height="200" alt="Step 7" src="/images/shopify-7.png" />
-
-1. Note down the Access Token, then navigate to [Settings > Integrations](https://web.tryhutch.co.uk/clients/settings/integrations) within the Pimento dashboard, and press **Connect** within the Shopify section.
-
-<img height="200" alt="Step 8" src="/images/shopify-8.png" />
-
-1. Enter your Store Slug, this can be found in the URL bar of the Shopify dashboard
-
-<img height="200" alt="Step 9" src="/images/shopify-9.png" />
-
-1. Enter the Access Token you noted down in the earlier step.
-
-2. Press **Connect**, your Shopify store is now connected to Pimento.
+5. Once accepted you will be redirected back to Pimento with your settings page now available, you will **NEED** to set a fulfilment location so that orders can then begin to download
+<img height="200" src="/images/shopify-settings.png" alt="Pimento Shopify Settings page" />
