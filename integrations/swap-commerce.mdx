@@ -52,7 +52,33 @@ The Webhook Secret won't be shown again, so make sure to save it securely.
 The API key won't be shown again, so make sure to save it securely.
 </Warning>
 
-## 5. Complete Integration
+## 5. Configure Swap Settings
+
+To ensure returns sync correctly between Pimento and Swap, you need to configure the following settings in Swap:
+
+### Automatic Updates
+
+Set updates to **Automatic** to ensure completed returns show as complete within Swap.
+
+<img height="200" src="/images/swap-automatic-updates.png" alt="Swap Automatic Updates Setting" />
+
+### Sellable/Unsellable Actions
+
+Configure sellable and unsellable actions to ensure items correctly get passed to Swap. You will need to create one action for each:
+
+**Sellable Action:**
+- **Provider condition** → `sellable` (lowercase)
+- **Store condition** → `Sellable`
+- **Quality approved** → `Yes`
+
+**Unsellable Action:**
+- **Provider condition** → `unsellable` (lowercase)
+- **Store condition** → `Unsellable`
+- **Quality approved** → `Yes`
+
+<img height="200" src="/images/swap-quality-control.png" alt="Swap Quality Control Actions" />
+
+## 6. Complete Integration
 
 1. Enter the **Webhook Secret** from Step 3
 
@@ -63,4 +89,9 @@ The API key won't be shown again, so make sure to save it securely.
 <img height="200" src="/images/swapcommerce-connected.png" alt="Swap Commerce Connected" />
 
 Your Swap Commerce account is now connected to Pimento, and returns will automatically sync between the platforms.
+
+<Info>
+Make sure you have completed Step 5 to configure the required Swap settings (Automatic Updates and Sellable/Unsellable Actions) to ensure returns sync correctly.
+</Info>
+
 
